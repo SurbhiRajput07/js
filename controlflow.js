@@ -194,6 +194,6 @@ for (let i = 0;i <10;i++) {
     console.log(element);
     for (let j = 0; j < 10; j++) {
         const element2 = j;
-        console.log(i *j ="")
+        console.log(i * +j '=' j '*' +j= )
     }
 }
