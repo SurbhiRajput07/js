@@ -189,11 +189,63 @@
 //         console.log(element2)
 //     }
 // }
-for (let i = 0;i <10;i++) {
-    const element = i;
-    console.log(element);
-    for (let j = 0; j < 10; j++) {
-        const element2 = j;
-        console.log(i * +j '=' j '*' +j= )
-    }
-}
+// for (let i = 0;i <10;i++) {
+//     const element = i;
+//     console.log(element);
+//     for (let j = 0; j < 10; j++) {
+//         const element2 = j;
+//         console.log( )
+//     }
+// }
+
+// let price = prompt("type a number");
+// if(price<=30){
+//     console.log("cone");
+// }else if (price <=40){
+//     console.log("strawbarray");
+// }else{
+//     console.log("another");
+// }
+// let price = Number(prompt("type a number"));
+// if(price===30){
+//     console.log("cone");
+// }else if (price ===40){
+//     console.log("strawbarray");
+// }else{
+//     console.log("another");
+// }
+// 
+
+//+++++++++++++++++++++++++++++++++++++++loops+++++++++++++++++++++++
+
+//  for(let i =0; i<10;i++){
+//  console.log("i am on the way")
+//  //console.log(Math.random());  //it generate random number.
+//  }
+
+// let i = 0;
+// console.log(i++);  //i++ increment in next step.
+// console.log(i);   
+// console.log(i++);
+// console.log(i);
+
+// let y=0;
+// console.log(++y);  //++i increment in that particular step.
+// console.log(y);  
+// console.log(++y);
+// console.log(y);
+
+
+// let i=0;
+// while (i<10) {
+//     console.log("learning js");
+
+//     ++i;  //if we not use this condition loop is running unlimited times.
+// }
+
+let i=10;
+
+do {
+    console.log("hello everyone");
+    ++i;
+} while (i=10);
