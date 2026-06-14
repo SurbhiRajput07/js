@@ -243,9 +243,13 @@
 //     ++i;  //if we not use this condition loop is running unlimited times.
 // }
 
-let i=10;
+// let i=10;
 
-do {
-    console.log("hello everyone");
-    ++i;
-} while (i=10);
+// do {
+//     console.log("hello everyone");
+//     ++i;
+// } while (i=10);
+
+
+
+
