@@ -85,7 +85,7 @@
 
 // +++++++++++++++++++++++++++quize question++++++++++++++++++++++++++++++++++++++++++++++++++++++
   //1. 
-if(0){
+/*if(0){
   console.log('yes');       //0 is falsy value so it return no
 }else{
   console.log('no');
@@ -173,4 +173,21 @@ console.log(getval(12));
         if(score>=50 && score<=70) return 'b'
         if(score<=30) return 'fail'
     }
-    console.log(getgrade(20))
+    console.log(getgrade(20));*/
+
+    //14.
+    let x=6;
+    switch(x){
+      case 2:
+        console.log("two");
+        break;
+        case3:
+        console.log("three");
+        break;
+        default:
+        console.log("default");
+    }
+
+    //15. for loop
+
+    
