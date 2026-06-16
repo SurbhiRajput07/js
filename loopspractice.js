@@ -176,18 +176,46 @@ console.log(getval(12));
     console.log(getgrade(20));*/
 
     //14.
-    let x=6;
-    switch(x){
-      case 2:
-        console.log("two");
-        break;
-        case3:
-        console.log("three");
-        break;
-        default:
-        console.log("default");
-    }
+    //let x=6;
+    // switch(x){
+    //   case 2:
+    //     console.log("two");
+    //     break;
+    //     case3:
+    //     console.log("three");
+    //     break;
+    //     default:
+    //     console.log("default");
+    // }
 
     //15. for loop
 
-    
+//   for(let i=0;i<=10;i++){
+//     if (i%2==0){
+//     console.log("even",i);
+//   }else{
+//     console.log("odd",i);
+//   }
+// }
+
+//16.while loop
+
+// let x=0;
+// while(x<30){
+//   if(x=2 && x%2===0){
+//     console.log("prime",x);
+//   }else{
+//     console.log("not a prime",x);
+//   }
+//   x++;
+// }
+
+
+for(i=1;i<=5;i++){
+       let row="";
+  for(j=1;j=5-i+1;j++){
+      row+=j;
+        
+        }
+     console.log(row);
+ }

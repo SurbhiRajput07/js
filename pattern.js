@@ -40,9 +40,21 @@
     
     for(i=1;i<=5;i++){
            let row="";
-      for(j=1;j=5-i+1;j++){
+      for(j=1;j<=5-i+1;j++){
           row+=j;
             
             }
          console.log(row);
      }
+
+
+    for(i=1;i<=4;i++){
+        let space=3;
+        let star=1;
+        for(j=1;j<=7;j++){
+            -=1;
+            star+=2;
+
+        }
+        console.log("*");
+    }

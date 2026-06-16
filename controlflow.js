@@ -251,5 +251,58 @@
 // } while (i=10);
 
 
+let numsum =0;
+ for(i=0;i<=100;i++){
+     numsum=numsum+i;
+    }
+    console.log(numsum);
 
 
+// for(i=1;i<=30;i++){
+//     if(i%3==0){
+//         console.log(i);
+//     }
+// }
+   
+
+// let x=10;
+// while(x>=1){
+//     console.log(x);
+//     x--;
+// }
+
+
+// let n=prompt("type a number");
+// for(i=1;i<=n;i++){
+//     if(i%2===0){
+//         console.log("even",n);
+//     }else{
+//         console.log("odd",n);
+//     }
+// }
+
+// for (let i = 1; i<=100;i++){
+//     if(i%3===0 && i%5===0){
+//         console.log(i);
+//     }
+// }
+
+// for(i=1;i<=100;i++){
+//     if(i<7){
+//         console.log(i);
+       
+//     }
+//     if(i%7===0){
+//         console.log(i);
+//         break;
+//     }
+// }
+
+//skip the mutiple of 3.
+
+for(i=1;i<=20;i++){
+    if(i%3!==0){
+        console.log(i);
+        continue;
+    }
+}
