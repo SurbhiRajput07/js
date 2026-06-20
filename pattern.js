@@ -73,18 +73,128 @@ for( let i=1;i<=n;i++){
 
   //10 well
 
-let n=5;
- for(i=1;i<=n;i++){
-  let row="";
-  for(j=1;j<=i;j++){
-    row+=j;
+// let n=5;
+//  for(i=1;i<=n;i++){
+//   let row="";
+//   for(j=1;j<=i;j++){
+//     row+=j;
 
+//   }
+//   for(k=1;k<=2*n-2*i;k++){
+//     row+=" ";
+//   }
+//   for(l=1;l<=i;l++){
+//     row+=l;
+//   }
+//   console.log(row);
+//  }
+
+//   for(k=1;k<=2*n-2*i;k++){
+//     row+=" ";
+//   }
+//   for(l=1;l<=i;l++){
+//     row+=l;
+//   }
+//   console.log(row);
+// }
+
+
+//**********************11.
+// let count =1;
+// for(let i=1;i<=5;i++){
+//   let row="";
+//   for(let j=1;j<=i;j++){
+//      row+=count +" ";
+//      count++;
+//   }
+//   for(let k=4;k>=0;k--){
+//     row+=" ";
+//   }
+//   console.log(row);
+// }
+
+// 12.
+/*for(let i=1;i<=5;i++){
+  let row="";
+  for(let j=1;j<=i;j++){
+    if(i%2!==0){
+      if(j%2!==0){
+        row+=1;
+      }else{
+         row+=0;
+      }
+    } 
+  else if(i%2==0){
+    if(j%2!==0){
+    row+=0;
+  }else{
+    row+=1;
   }
-  for(k=1;k<=2*n-2*i;k++){
+ }
+}
+console.log(row);
+}*/
+   
+//  13.
+
+// let n=5;
+// for(let i=1;i<=n;i++){
+//   let row="";
+//   for(let j=1;j<=i-1;j++){
+//     row+=" ";
+//   }
+//   for(let k=1;k<2;k++){
+//     row+="*";
+//   }
+//   for(let l=1;l<=(2*n-2*i-1);l++){
+//     row+=" ";
+//   }
+//   for(let m=1;m<2;m++){
+//     row+="*";
+//   }
+//   console.log(row);
+// }
+
+//################14.#############################################
+
+// for(let i=1;i<=5;i++){
+//   let row="";
+//   for(let j=0;j<i;j++){
+//     row+=String.fromCharCode(65+j);
+//   }
+//   console.log(row);
+// }
+
+// // +++++++++++++++++15.++++++++++++++
+
+// for(let i=1;i<=5;i++){
+//   let row="";
+//   for(j=0;j<5-i+1;j++){
+//     row+=String.fromCharCode(97+j);
+//   }
+//   console.log(row);
+// }
+
+
+ //16.
+
+// for(let i=1;i<=5;i++){
+//   let row="";
+//   for(let j=0;j<i;j++){
+//     row+=String.fromCharCode(64+i);
+//   }
+//   console.log(row);
+// }
+
+//+++++++++++++++++++++++++++  17.+++++++++++++
+
+for(let i=1;i<=5;i++){
+  let row="";
+  for(let j=1;j<=4-i;j++){
     row+=" ";
   }
-  for(l=1;l<=i;l++){
-    row+=l;
+  for(let k=1;k<i;k++){
+    row+=String.fromCharCode(64+k);
   }
   console.log(row);
- }
+}
